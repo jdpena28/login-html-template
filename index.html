@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <script src="https://cdn.tailwindcss.com" data-preload="true"></script>
+  </head>
+  <body>
+    <div
+      class="flex min-h-[100dvh] flex-col items-center justify-center bg-gradient-to-br from-[#7928CA] to-[#FF0080] px-4 py-12 sm:px-6 lg:px-8"
+    >
+      <div class="mx-auto flex max-w-md flex-col items-center space-y-6">
+        <div class="flex items-center justify-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="h-12 w-12 text-white"
+          >
+            <path d="m8 3 4 8 5-5 5 15H2L8 3z"></path>
+          </svg>
+          <span class="ml-2 text-2xl font-bold text-white">NTRC - FIRMS</span>
+        </div>
+        <div
+          class="rounded-lg border bg-card text-card-foreground shadow-sm w-full bg-white"
+        >
+          <div class="flex flex-col p-6 space-y-1">
+            <h3 class="whitespace-nowrap font-semibold tracking-tight text-2xl">
+              Welcome Back
+            </h3>
+            <p class="text-sm text-muted-foreground">
+              This is a sample login page for Azure ADB2C hosted from other
+              service and only injected from the ADB2C using the User Flow and
+              <a
+                class="underline text-blue-500"
+                href="https://learn.microsoft.com/en-us/azure/active-directory-b2c/customize-ui-with-html?WT.mc_id=Portal-Microsoft_AAD_B2CAdmin&pivots=b2c-user-flow#custom-html-and-css-overview"
+                noreferrer
+                target="_blank"
+                >documentation</a
+              >
+              about customizing the login page.
+            </p>
+          </div>
+          <div id="api" class="p-6 space-y-4">
+            <!-- <div class="space-y-2">
+              <label
+                class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                for="email"
+              >
+                Email
+              </label>
+              <input
+                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                id="email"
+                placeholder="m@example.com"
+                required=""
+                type="email"
+              />
+            </div>
+            <div class="space-y-2">
+              <label
+                class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                for="password"
+              >
+                Password
+              </label>
+              <input
+                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                id="password"
+                required=""
+                type="password"
+              />
+            </div>
+            <div class="flex items-center p-6">
+              <button
+                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+              >
+                Sign in
+              </button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
